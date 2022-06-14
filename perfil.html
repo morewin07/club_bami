@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="es" class="h-100">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Perfil</title>
+    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="stylesheet" href="Boostrap/css/bootstrap.min.css">
+    <script src="Boostrap/js/bootstrap.bundle.min.js"></script>
+    <script src="JS/jquery-3.6.0.min.js"></script>
+    <script src="JS/scriptSesionIniciada.js"></script>
+    <script src="JS/scriptPerfil.js"></script>
+
+    <meta name="author" content="Tomás Moreno">
+    <!-- Autor: Tomás Moreno -->
+</head>
+
+<body class="bg-secondary d-flex flex-column h-100">
+    <div class="p-3 bg-secondary text-white text-center">
+        <img class="" src="./img/LOGO.png" height="100px" alt="logoClubSocial">
+    </div>
+    <nav class="navbar navbar-expand-sm navbar-dark bg-dark sticky-top">
+        <div class="container-fluid">
+            <a class="navbar-brand dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">Menú</a>
+            <ul class="dropdown-menu">
+
+                <li><a class="dropdown-item" href="index.html">Inicio</a></li>
+                <li><a class="dropdown-item" href="noticias.html">Noticias</a></li>
+                <li><a class="dropdown-item" href="eventos.html">Eventos</a></li>
+                <li><a class="dropdown-item" href="index.html">Donde estamos</a></li>
+                <li><a class="dropdown-item" href="index.html">Instalaciones - Precios</a></li>
+                <li><a class="dropdown-item" href="contacto.html">Contactos</a></li>
+
+            </ul>
+
+            <a class="btn btn-secondary" type="button" href="inicioSesion.html" id="btnsesion">Iniciar Sesion</a>
+
+        </div>
+
+    </nav>
+
+
+    <div class="container mt-5">
+        <div class="row justify-content-center">
+
+            <div class="col-sm-10 col-md-8 bg-info text-center rounded">
+                <h1 id="nombreUsuario">Usuario</h1>
+
+                <div class="row">
+                    <div class="col-md-6 mt-2">
+                        <h3>Nombre</h3>
+                    </div>
+                    <div class="col-md-6 mt-2">
+                        <p id="nombre"></p>
+                    </div>
+
+                    <hr>
+
+                    <div class="col-md-6 mt-2">
+                        <h3>Apellidos</h3>
+                    </div>
+                    <div class="col-md-6 mt-2">
+                        <p id="apellidos"></p>
+                    </div>
+
+                    <hr>
+
+                    <div class="col-md-6 mt-2">
+                        <h3>Edad</h3>
+                    </div>
+                    <div class="col-md-6 mt-2">
+                        <p id="edad"></p>
+                    </div>
+
+                    <hr>
+
+                    <div class="col-md-6 mt-2">
+                        <h3>Miembros</h3>
+                    </div>
+                    <div class="col-md-6 mt-2">
+                        <p id="miembros"></p>
+                    </div>
+
+                    <hr>
+
+                    <div class="col-md-6 mt-2">
+                        <h3>Tipo </h3>
+                    </div>
+                    <div class="col-md-6 mt-2">
+                        <p id="tipoUsuario"></p>
+                    </div>
+
+                    <hr>
+
+                    <div class="container-fluid">
+                        <div class="row" id="extras">
+
+                        </div>
+                    </div>
+
+
+
+
+                </div>
+
+                <button class="btn btn-danger mb-3" id="cerrarSesion">Cerrar sesion</button>
+
+            </div>
+        </div>
+    </div>
+
+    <footer class="footer mt-auto pt-3">
+        <div class="container-fluid bg-dark text-white">
+            <div class="row pt-2">
+                <div class="col-4">
+                    <h4>Contacto</h4>
+                    <a href="contacto.html" class="btn btn-primary">Contacto</a>
+                </div>
+                <div class="col-4">
+                    <h4>Aviso legal</h4>
+                    <p>Todos los derechos reservados</p>
+                </div>
+                <div class="col-4">
+                    <h4>Copyright</h4>
+                    <h6>2022</h6>
+                    <p>Tomás Moreno</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+</body>
+
+</html>

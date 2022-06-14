@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reservas</title>
+    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="stylesheet" href="Boostrap/css/bootstrap.min.css">
+    <script src="Boostrap/js/bootstrap.bundle.min.js"></script>
+    <script src="JS/jquery-3.6.0.min.js"></script>
+    <script src="JS/scriptSesionIniciada.js"></script>
+    <script src="JS/scriptReservas.js"></script>
+    <meta name="author" content="Tomás Moreno">
+    <!-- Autor: Tomás Moreno -->
+</head>
+
+<body class="bg-secondary">
+    <div class="p-3 bg-secondary text-white text-center">
+        <img class="" src="./img/LOGO.png" height="100px" alt="logoClubSocial">
+    </div>
+    <nav class="navbar navbar-expand-sm navbar-dark bg-dark sticky-top">
+        <div class="container-fluid">
+            <a class="navbar-brand dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">Menú</a>
+            <ul class="dropdown-menu">
+
+                <li><a class="dropdown-item active" href="index.html">Inicio</a></li>
+                <li><a class="dropdown-item" href="noticias.html">Noticias</a></li>
+                <li><a class="dropdown-item" href="eventos.html">Eventos</a></li>
+                <li><a class="dropdown-item" href="#localizacion">Donde estamos</a></li>
+                <li><a class="dropdown-item" href="#instalaciones">Instalaciones - Precios</a></li>
+                <li><a class="dropdown-item" href="#">Contactos</a></li>
+
+            </ul>
+
+            <a class="btn btn-secondary" type="button" href="inicioSesion.html" id="btnsesion">Iniciar Sesion</a>
+
+        </div>
+
+
+    </nav>
+    <div class="container bg-info my-5 py-2 rounded">
+        <div class="row justify-content-center">
+
+            <div class="col-8 container-fluid">
+                <h2 id="nombrePista">Reserva de </h2>
+                <table id="tablaReservas" class="table table-responsive">
+                    <caption>Horas disponibles</caption>
+                    <tr>
+                        <th>Pista</th>
+                        <th>Fecha</th>
+                        <th>Horas Disponibles</th>
+                        <th>Reservar</th>
+                    </tr>
+                </table>
+                <a href="./index.html"><button class="btn btn-light mt-2 " type="button" id="">Volver a Inicio</button></a>
+            </div>
+
+        </div>
+    </div>
+
+    <footer class="footer mt-auto pt-3">
+        <div class="container-fluid bg-dark text-white">
+            <div class="row pt-2">
+                <div class="col-4">
+                    <h4>Contacto</h4>
+                    <a href="contacto.html" class="btn btn-primary">Contacto</a>
+                </div>
+                <div class="col-4">
+                    <h4>Aviso legal</h4>
+                    <p>Todos los derechos reservados</p>
+                </div>
+                <div class="col-4">
+                    <h4>Copyright</h4>
+                    <h6>2022</h6>
+                    <p>Tomás Moreno</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+</body>
+
+</html>
